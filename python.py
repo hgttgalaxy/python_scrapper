@@ -1,10 +1,12 @@
-winner = 11
+websites = [
+    "naver.com",
+    "app.modeal.net",
+    "https://auto-sales.co.kr",
+    "crm.modeal.net"
 
+]
 
-if winner > 10:
-    print("winner is greater than 10")
-
-elif winner < 10:
-    print("Winner is less than 10")
-else:
-    print("winner is 10")
+for website in websites:
+    if not website.startswith(("https://")):
+        website = f"https://{website}"
+    print(website)
