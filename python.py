@@ -1,12 +1,11 @@
-websites = [
-    "naver.com",
-    "app.modeal.net",
-    "https://auto-sales.co.kr",
-    "crm.modeal.net"
 
-]
 
-for website in websites:
-    if not website.startswith(("https://")):
-        website = f"https://{website}"
-    print(website)
+
+love = ["niel", "keol"]
+
+print(love) 안녕하세요 반갑습니다.
+
+호호호호호호호호
+
+
+
