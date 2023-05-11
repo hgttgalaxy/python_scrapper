@@ -13,7 +13,11 @@ browser = webdriver.Chrome(options=options)
 browser.get("https://www.indeed.com/jobs?q=python&limit=50")
 soup = BeautifulSoup(browser.page_source, "html.parser")
 
+
 print(soup)
+
+
+
 
 
 
